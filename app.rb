@@ -9,5 +9,6 @@ class App < Sinatra::Base
   get '/square/:number' do 
   end
   
-  
+   get '/say/:number/:phrase' do 
+   end
 end
